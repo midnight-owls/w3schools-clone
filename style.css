@@ -1,5 +1,5 @@
 body {
- background-color: #313244; 
+  background-color: #313244;
 }
 
 head {
@@ -12,21 +12,19 @@ head {
   justify-content: flex-start;
 }
 
-
-
-.left_header_container{
+.left_header_container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.rght_header_container{
+.rght_header_container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.not_sure_link{
+.not_sure_link {
   display: block;
   text-align: center;
 }
@@ -47,11 +45,11 @@ head {
   text-align: center;
 }
 
-.container{
+.container {
   background-color: white;
 }
 
-.search_box{
+.search_box {
   border-radius: 10px;
   border-style: solid;
   border-width: 2px;

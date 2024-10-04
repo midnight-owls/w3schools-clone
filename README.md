@@ -1,12 +1,12 @@
-# w3schools-clone
+# W3Schools Clone
+A school project focused on recreating the **W3Schools** [homepage](https://www.w3schools.com/).
 
 ### Original Home Page
 ![index](/assets/w3schools-home-page.png)
 
-<hr/>
-
-### Contributors:
-- @Hisuiiii
-- @Kobeszkie
-- @RNCDC
-- @sejjy
+## Contributors
+- [Kobe Fajardo](https://github.com/Kobeszkie) - Project Lead
+- [Von Defuntorum](https://github.com/Hisuiiii) - Development Lead
+- [Jesse Mirabel](https://github.com/sejjy) - Design Lead
+- [Raven Dela Cruz](https://github.com/RNCDC) - Quality Lead
+- Cris Ecalne - Analyst

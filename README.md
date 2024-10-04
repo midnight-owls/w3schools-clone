@@ -1,5 +1,5 @@
 # W3Schools Clone
-A school project focused on recreating the **W3Schools** [homepage](https://www.w3schools.com/).
+A school project aimed at recreating the [W3Schools homepage](https://www.w3schools.com/)
 
 ### Original Home Page
 ![index](/assets/w3schools-home-page.png)

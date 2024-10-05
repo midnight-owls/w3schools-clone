@@ -5,8 +5,8 @@ A school project aimed at recreating the [W3Schools homepage](https://www.w3scho
 ![index](/assets/w3schools-home-page.png)
 
 ## Contributors
-|                                                   | <div align="center">Roles</div>   |
-|--------------------------------------------------:|:----------------------------------| 
+|                                                   |                                   |
+|---------------------------------------------------|-----------------------------------| 
 | [Kobe Fajardo](https://github.com/Kobeszkie)      | Project Lead                      |
 | [Von Defuntorum](https://github.com/Hisuiiii)     | Development Lead                  |
 | [Jesse Mirabel](https://github.com/sejjy)         | Design Lead                       |

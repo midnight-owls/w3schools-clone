@@ -27,7 +27,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   border-radius: 10px;
-  width: 450px; /* Adjusted width for a smaller search bar */
+  width: 360px; /* Adjusted width for a smaller search bar */
   border-style: solid;
   border-width: 2px;
   border-color: #ffffff;

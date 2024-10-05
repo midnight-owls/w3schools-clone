@@ -36,7 +36,7 @@ body {
 }
 
 .not_sure_link {
-  display: absolute;               /* Allows flexibility for centering */
+  display: flex;               /* Allows flexibility for centering */
   justify-content: center;     /* Centers the link horizontally */
   align-items: center;         /* Centers the link vertically */
   text-align: center;          /* Ensures the text is centered */

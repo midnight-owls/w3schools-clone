@@ -1,17 +1,44 @@
 /* Body Styling */
 body {
   background-color: #282a35;
-  font-family: "Fira Code", monospace;
-  margin: 0;
-  padding: 0;
 }
 
-/* Main Container Styling */
-.main_container {
+.main_body{
+  margin-top:15% ;
+}
+/* Header */
+.main_header{
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  background-color: #282a35;
+  padding: 0%;
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+
+.header_search_box{
+
+}
+
+/* Body */
+
+.learn_to_code{
+  padding: 0%;
+  margin: -3%;
+}
+
+.not_sure_link{
+  padding-top: 5%;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Fira Code", monospace;
+  font-weight:bolder;
+  word-spacing: -0.05em;
 }
 
 /* Centering Search Box and Button */
@@ -71,9 +98,10 @@ body {
 .title {
   color: #ffffff;
   font-family: "Fira Code", monospace;
-  font-size: 32pt;
+  font-size: 50pt;
   font-weight: bold;
   text-align: center;
+  letter-spacing: -0.5px;
 }
 
 .subtitle {
@@ -82,20 +110,9 @@ body {
   font-size: 16pt;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 4%;
 }
 
-/* Link Styling */
-.not_sure_link {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
 
-.not_sure_link a {
-  color: white;
-  text-decoration: underline;
-}
 
-.not_sure_link a:hover {
-  text-decoration: underline;
-}
+/*# sourceMappingURL=style.css.map */

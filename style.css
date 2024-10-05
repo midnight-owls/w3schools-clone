@@ -6,21 +6,35 @@ body {
   padding: 0;
 }
 
-/* Search Box Styling */
-.search_box {
+/* Main Container Styling */
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #313244;
+}
+
+/* Centering Search Box and Button */
+.search_container {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 20px 0;
+}
+
+.search_box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
   border-radius: 10px;
+  width: 450px; /* Adjusted width for a smaller search bar */
   border-style: solid;
   border-width: 2px;
-  border-color: #ffffff; /* Set the border color to match the theme */
-  padding: 10px;
-  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .search_input {
-  width: 300px;
+  width: 250px; /* Adjusted width for smaller input */
   padding: 10px;
   border-radius: 5px 0 0 5px;
   border: none;
@@ -43,9 +57,9 @@ body {
 
 /* Astronaut Image Styling */
 .astronaut_container {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+  position: absolute; /* Allows free movement of the astronaut */
+  right: 5%; /* Positioned towards the right middle */
+  top: 40%; /* Moves astronaut vertically to the middle area */
 }
 
 .astronaut_image {
@@ -70,18 +84,16 @@ body {
   text-align: center;
 }
 
-/* Main Container Styling */
-.main_container {
+/* Link Styling */
+.not_sure_link {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #313244;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-/* Link Styling */
 .not_sure_link a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .not_sure_link a:hover {

@@ -1,6 +1,6 @@
 /* Body Styling */
 body {
-  background-color: #313244;
+  background-color: #2a2c37;
   font-family: "Fira Code", monospace;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #313244;
+  background-color: #2a2c37;
 }
 
 /* Centering Search Box and Button */

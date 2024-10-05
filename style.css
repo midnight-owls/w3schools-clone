@@ -21,7 +21,11 @@ body {
 }
 
 .header_search_box{
-
+ padding: 8px; /* Padding inside the input box */
+  border: 1px solid #ccc; /* Border around the input box */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 14px; /* Font size for the text inside */
+  width: 200px; /* Width of the search input */
 }
 
 /* Body */
@@ -31,14 +35,16 @@ body {
   margin: -3%;
 }
 
-.not_sure_link{
-  padding-top: 5%;
-  display: block;
-  text-align: center;
+.not_sure_link {
+  display: absolute;               /* Allows flexibility for centering */
+  justify-content: center;     /* Centers the link horizontally */
+  align-items: center;         /* Centers the link vertically */
+  text-align: center;          /* Ensures the text is centered */
   font-size: 1.5em;
   font-family: "Fira Code", monospace;
-  font-weight:bolder;
+  font-weight: bolder;
   word-spacing: -0.05em;
+  margin-top: 20px;            /* Adds some space above the link */
 }
 
 /* Centering Search Box and Button */
@@ -85,7 +91,7 @@ body {
 /* Astronaut Image Styling */
 .astronaut_container {
   position: absolute; /* Allows free movement of the astronaut */
-  right: 5%; /* Positioned towards the right middle */
+  right: 2%; /* Positioned towards the right middle */
   top: 40%; /* Moves astronaut vertically to the middle area */
 }
 

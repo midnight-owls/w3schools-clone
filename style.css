@@ -1,9 +1,14 @@
 body {
-  background-color: #313244;
+ background-color: #313244; 
+}
+
+/* Removing the underline in hyperlinks */
+a {
+  text-decoration: none;
 }
 
 .main_body{
-  margin-top:15% ;
+  margin-top:8%;
 }
 /* Header */
 .main_header{
@@ -20,14 +25,32 @@ body {
 }
 
 .header_search_box{
-
+  border-style: solid;
+  width: 100%;
+  border-style: none;
 }
 
-/* Body */
+.body_top{
+  margin-top: 4%;
+  display: flex;
+  gap: 10px;
+}
 
+.color_hover {
+  width: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.color_hover:hover {
+  background-color: #917d7d;
+}
+
+
+/* Body */
 .learn_to_code{
   padding: 0%;
-  margin: -3%;
+  margin: -2%;
 }
 
 .not_sure_link{

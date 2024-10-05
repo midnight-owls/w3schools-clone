@@ -25,6 +25,7 @@ body {
     padding: 40px;
     width: 50%;
     background-color: white;
+    border-radius: 2%;
 }
 h1 {
     font-size: 2em;
@@ -73,11 +74,13 @@ a {
     cursor: pointer;
 }
 .google {
+    display: flex;
     background-color: white;
     color: black;
     justify-content: space-evenly;
 }
 .github {
+    display: flex;
     background-color: white;
     color: black;
     justify-content: space-evenly;

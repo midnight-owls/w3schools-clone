@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #282a35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.container {
+  display: flex;
+  color: white;
+}
+.left-section {
+  padding: 40px;
+  width: 50%;
+}
+.right-section {
+  padding: 40px;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 2%;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.green-heart {
+  color: #00ff00;
+}
+ul {
+  margin-top: 20px;
+  line-height: 1.8;
+}
+.start-button {
+  margin-top: 30px;
+}
+button {
+  display: grid;
+  padding: 10px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.right-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+a {
+  color: #04aa6d;
+  text-decoration: none;
+}
+.social-login {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+.social-login button {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center the items vertically */
+  justify-content: center; /* Center the items horizontally */
+  padding: 10px;
+  margin: 1px;
+  border: 2px solid #ccc; /* Add border with light gray color */
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: white; /* Background color for the button */
+  color: black; /* Text color */
+  transition: border-color 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.social-login button img {
+  margin-right: 5px; /* Add some space between the logo and text */
+}
+
+.social-login button:hover {
+  border-color: #00ff00; /* Change border color on hover */
+  background-color: #f0f0f0; /* Change background color on hover for better visibility */
+}
+
+.login-form {
+  margin-top: 0px;
+}
+.login-form input {
+  border-style: solid;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.forgot {
+  display: grid;
+  margin-top: 13px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  padding: 0%;
+}
+
+.or {
+  text-align: center;
+  margin: 20px 0; /* Space around the OR text */
+  position: relative; /* Positioning for the line */
+}
+
+.or span {
+  background-color: white; /* Match the background color */
+  padding: 0 10px; /* Space around the text */
+  color: rgb(102, 101, 101); /* Color of the OR text */
+  position: relative; /* Required for pseudo-element */
+  z-index: 1; /* Make sure text is above the line */
+}
+
+.or:before {
+  content: "";
+  position: absolute;
+  top: 50%; /* Center the line vertically */
+  left: 0;
+  right: 0;
+  height: 1px; /* Thickness of the line */
+  background-color: #ccc; /* Line color */
+  z-index: 0; /* Place line behind the text */
+}
+.custom_bullet {
+  list-style-type: none; /* Remove the default bullets */
+  padding-left: 0px; /* Adjust padding if necessary */
+}
+
+.custom_bullet li {
+  position: relative;
+  padding-left: 30px; /* Provide space for the bullet image */
+}
+
+.custom_bullet li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Set the width of the bullet image */
+  height: 20px; /* Set the height of the bullet image */
+  background-image: url("assets/check_icon.png");
+  background-size: contain; /* Resize the image to fit the dimensions */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+}
+.forgot_pass {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  gap: 10px; /* Space between the buttons */
+  width: 100%; /* Ensures container takes full width if needed */
+}

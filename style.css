@@ -1,22 +1,64 @@
+/* General Styles */
 body {
-  background-color: #313244;
+  background-color: #282a35;
+  margin: 0;
+  font-family: "Fira Code", monospace;
 }
 
-.main_body{
-  margin-top:15% ;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-/* Header */
-.main_header{
-  position: absolute;
+
+.main-header {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
-  padding: 0%;
-  height: 56px;
-  width: 100%;
-  background-color: white;
-  top: 0%;
-  left: 0%;
-  z-index: -1;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  margin-left: -10px;
+  width: 52px;
+  height: 52px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 6px;
+  flex-grow: 1;
+}
+
+.nav-item {
+  font-family: Verdana;
+  font-size: small;
+  padding: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown-icon {
+  margin-left: 0px;
+  width: 10px;
+  height: 10px;
+}
+
+.nav-item:hover {
+  background-color: #f0f0f0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
 }
 
 /* .header_search_box{
@@ -30,49 +72,87 @@ body {
   margin: -3%;
 }
 
-.not_sure_link{
-  padding-top: 5%;
-  display: block;
+.tech-stack {
+  color: white;
+  font-size: 11pt;
+  display: flex;
+  gap: 37px;
+  justify-content: left;
+  padding: 8px 20px;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+}
+
+/* Main Content */
+.main-body {
   text-align: center;
-  font-size: 1.5em;
-  font-family: "Fira Code", monospace;
-  font-weight:bolder;
-  word-spacing: -0.05em;
+  margin-top: 100px;
+}
+
+.learn-section {
+  margin-bottom: 20px;
 }
 
 .title {
   color: #ffffff;
-  font-family: "Fira Code", monospace;
   font-size: 50pt;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: -0.5px;
+  margin: 0;
 }
 
 .subtitle {
   color: #f9e2af;
-  font-family: "Fira Code", monospace;
   font-size: 16pt;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 4%;
+  margin: 20px 0 20px;
 }
 
-.search_box{
-  display: flex;       
-  margin: 0 auto;       
-  width: 500px;           
+.search-box-container {
+  margin: 35px 0;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.tutorial-search-input {
+  padding: 12px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 390px;
+  border-radius: 5em 0em 0em 5em;
+}
+
+.search-button {
   padding: 10px;
-  border-top-left-radius: 25px; /* Set both radii to the same value */
-  border-bottom-left-radius: 25px; /* Same value as the top-left radius */
-  background-color: white;
-  border-style: none;
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+  border-radius: 0em 5em 5em 0em;
+  margin-left: -8px;
+  cursor: pointer;
 }
 
-.search_icon{
-  border-style: solid;
-  background-color: green;
-  padding-top: 0%;
+.astronaut-container {
+  margin-top: 20px;
+}
+
+.not-sure-link {
+  font-weight: bold;
+  font-family: Verdana;
+  color: white;
+  margin-top: 10px;
+  font-size: 1.2em;
 }
 
 .body_search_box {       

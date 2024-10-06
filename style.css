@@ -73,9 +73,9 @@ a {
   color: white;
   border-radius: 5em;
   padding: 4px 20px;
-  height: 32px; 
+  height: 32px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   line-height: normal;
   margin-left: 8px;
   margin-top: 5px;
@@ -83,18 +83,17 @@ a {
 }
 
 .nav-item.login-item {
-  background-color: #D9EEE1;
+  background-color: #d9eee1;
   color: black;
   border-radius: 5em;
   padding: 4px 25px 4px 60px;
-  height: 32px; 
+  height: 32px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   line-height: normal;
   margin-top: 5px;
   margin-left: -8vh;
 }
-
 
 .tech-stack {
   color: white;

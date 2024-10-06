@@ -7,9 +7,7 @@
       name="description"
       content="W3Schools is a web developer information website, with tutorials and references relating to web development topics such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap."
     />
-
     <title>W3Schools Clone</title>
-
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/w3schools-logo-icon.png" />
     <link
@@ -17,94 +15,113 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap"
     />
   </head>
-
   <body>
-    <!-- The Header -->
-    <div class="main_header">
-      <a href="https://www.w3schools.com" target="_blank"
-        ><img
-          src="assets/w3.png"
-          alt="Image of w3school"
-          style="width: 52px; height: 52px; padding-left: 12px"
-      /></a>
-      <div>
-        <h3>Tutorials</h3>
+    <header class="main-header">
+      <div class="header-container">
+        <a class="logo">
+          <img src="assets/w3.png" alt="W3Schools Logo" />
+        </a>
+        <nav class="nav-menu">
+          <div class="nav-item">
+            Tutorials
+            <img src="assets/dropdown-icon.png" class="dropdown-icon" />
+          </div>
+          <div class="nav-item">
+            Exercises
+            <img src="assets/dropdown-icon.png" class="dropdown-icon" />
+          </div>
+          <div class="nav-item">
+            Certificates
+            <img src="assets/dropdown-icon.png" class="dropdown-icon" />
+          </div>
+          <div class="nav-item">
+            Services
+            <img src="assets/dropdown-icon.png" class="dropdown-icon" />
+          </div>
+          <div class="search-container">
+            <input
+              type="text"
+              placeholder="Search..."
+              class="header-search-input"
+              style="
+                background-image: url('assets/search_icon.png');
+                background-position: 140px;
+                background-repeat: no-repeat;
+                background-size: 2.5vh;
+                padding: 10px 20px 6px 12px;
+                padding-bottom: 10px;
+              "
+            />
+          </div>
+          <div class="nav-item">
+            <img
+              src="assets/contrast.png"
+              class="dropdown-icon"
+              style="width: 16px; height: 16px; margin-right: 12vh"
+            />
+          </div>
+          <div class="nav-item">
+            <img
+              src="assets/code.png"
+              class="dropdown-icon"
+              style="width: 20px; height: 20px; margin-bottom: -5px"
+            />
+            Spaces
+          </div>
+          <div class="nav-item">
+            <img
+              src="assets/shopping-cart.png"
+              class="dropdown-icon"
+              style="width: 20px; height: 20px; margin-bottom: -5px"
+            />
+            Get Certified
+          </div>
+          <div class="nav-item signup-item">Sign up</div>
+          <div>
+            <a href="log-in.html" class="nav-item login-item"> Log in </a>
+          </div>
+        </nav>
       </div>
-      <div>
-        <h3>Exercises</h3>
-      </div>
-      <div>
-        <h3>Certificates</h3>
-      </div>
-      <div>
-        <h3>Services</h3>
-      </div>
-      <div>
-        <h3>
+    </header>
+    <div class="tech-stack">
+      <span>HTML</span> <span>CSS</span> <span>JAVASCRIPT</span>
+      <span>SQL</span> <span>PYTHON</span> <span>JAVA</span> <span>PHP</span>
+      <span>W3.CSS</span> <span>C</span> <span>C++</span> <span>C#</span>
+      <span>BOOTSTRAP</span> <span>REACT</span> <span>MYSQL</span>
+      <span>JQUERY</span> <span>EXCEL</span>
+    </div>
+
+    <main class="main-body">
+      <section class="learn-section">
+        <h1 class="title">Learn to Code</h1>
+        <h2 class="subtitle">With the world's largest web developer site.</h2>
+      </section>
+
+      <div class="search-box-container">
+        <div class="search-box">
           <input
             type="text"
-            class="header_search_box"
-            placeholder="Search..."
+            placeholder="Search our tutorials, e.g. HTML"
+            class="tutorial-search-input"
           />
-        </h3>
-      </div>
-      <div>
-        <h3>icon</h3>
-      </div>
-      <div>
-        <h3>Plus</h3>
-      </div>
-      <div>
-        <h3>For Teachers</h3>
-      </div>
-      <div>
-        <h3>Spaces</h3>
-      </div>
-      <div>
-        <h3>Get Certified</h3>
-      </div>
-      <div>
-        <h3>Sign up</h3>
-      </div>
-      <div>
-        <h3>Log in</h3>
-      </div>
-    </div>
-    
-    <!--    <div class="body_top">
-      HTML CSS JAVASCRIPT SQL PYTHON JAVA PHP HOW TO W3.CSS C C++ C# BOOTSRAP REACT MYSQL JQUERY EXCEL XML DJANGO
-    </div> -->
-
-    <!-- The Body -->
-    <div class="main_body">
-      <div class="learn_to_code">
-        <h1 class="title">Learn to Code</h1>
-      </div>
-      <div class="subt">
-        <h2 class="subtitle">With the world's largest web developer site.</h2>
+          <button
+            class="search-button"
+            style="
+              background-image: url('assets/search-icon-white.png');
+              background-position: 5.5vh;
+              background-repeat: no-repeat;
+              background-size: 2vh;
+              padding: 0px 40px;
+            "
+          ></button>
+        </div>
       </div>
 
-      <!-- Search Box -->
-    <div class="search_container">
-      <div class="search_box">
-        <input class="search_input" type="text" placeholder="Search our tutorials, e.g. HTML" />
-        <button class="search_button">Search</button>
+      <div class="astronaut-container">
+        <div class="not-sure-link">
+          <a><u>Not Sure Where To Begin?</u></a>
+        </div>
       </div>
-    </div>
-
-    <!-- Astronaut image -->
-    <div class="astronaut_container">
-      <img class="astronaut_image" src="assets/w3schools-astronaut.png" alt="Astronaut Image" />
-
-      <div class="not_sure_link">
-        <a
-          href="https://www.w3schools.com"
-          target="_blank"
-          style="color: white"
-          ;
-          >Not Sure Where To Begin?</a
-        >
-      </div>
-    </div>
+    </main>
   </body>
 </html>

@@ -1,8 +1,8 @@
 # W3Schools Clone
 A school project aimed at recreating the [W3Schools homepage](https://www.w3schools.com/)
 
-### Original Home Page
-![index](/assets/w3schools-home-page.png)
+### Home Page
+![index](/assets/init-home-clone.png)
 
 ## Contributors
 |                                                   |                                   |

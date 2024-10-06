@@ -23,6 +23,7 @@ body {
 .right-section {
     padding: 40px;
     width: 50%;
+    height: 50%;
     background-color: white;
     border-radius: 2%;
 }
@@ -34,7 +35,6 @@ h1 {
     color: #00FF00;
 }
 ul {
-    list-style: none;
     margin-top: 20px;
     line-height: 1.8;
 }
@@ -89,7 +89,7 @@ a {
 }
 
 .login-form {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .login-form input {
     border-style: solid;
@@ -132,3 +132,32 @@ a {
     background-color: #ccc; /* Line color */
     z-index: 0; /* Place line behind the text */
 }
+.custom_bullet {
+    list-style-type: none; /* Remove the default bullets */
+    padding-left: 0px; /* Adjust padding if necessary */
+}
+
+.custom_bullet li {
+    position: relative;
+    padding-left: 30px; /* Provide space for the bullet image */
+}
+
+.custom_bullet li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 20px;  /* Set the width of the bullet image */
+    height: 20px; /* Set the height of the bullet image */
+    background-image: url("assets/check_icon.png");
+    background-size: contain; /* Resize the image to fit the dimensions */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+}
+.forgot_pass{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 10px; /* Space between the buttons */
+    width: 100%; /* Ensures container takes full width if needed */
+}
+    

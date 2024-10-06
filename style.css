@@ -2,12 +2,51 @@ body {
   background-color: #313244;
 }
 
+.main_body{
+  margin-top:15% ;
+}
+/* Header */
+.main_header{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+
+/* .header_search_box{
+
+} */
+
+/* Body */
+
+.learn_to_code{
+  padding: 0%;
+  margin: -3%;
+}
+
+.not_sure_link{
+  padding-top: 5%;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Fira Code", monospace;
+  font-weight:bolder;
+  word-spacing: -0.05em;
+}
+
 .title {
   color: #ffffff;
   font-family: "Fira Code", monospace;
-  font-size: 32pt;
+  font-size: 50pt;
   font-weight: bold;
   text-align: center;
+  letter-spacing: -0.5px;
 }
 
 .subtitle {
@@ -16,8 +55,31 @@ body {
   font-size: 16pt;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 4%;
 }
 
-.container {
-  color: #ffffff;
-}/*# sourceMappingURL=style.css.map */
+.search_box{
+  display: flex;       
+  margin: 0 auto;       
+  width: 500px;           
+  padding: 10px;
+  border-top-left-radius: 25px; /* Set both radii to the same value */
+  border-bottom-left-radius: 25px; /* Same value as the top-left radius */
+  background-color: white;
+  border-style: none;
+}
+
+.search_icon{
+  border-style: solid;
+  background-color: green;
+  padding-top: 0%;
+}
+
+.body_search_box {       
+  width: auto;     
+  flex: 1;      
+  background-color: white;
+  border-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #282a35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+  
+    .left-section {
+      padding: 40px;
+      width: 50%;
+      position: relative;
+  
+      img {
+        max-width: 150px;
+      }
+  
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+  
+        .green-heart {
+          color: #00ff00;
+          padding-left: 5px; // Added padding to the green heart icon
+        }
+      }
+  
+      ul {
+        margin-top: 20px;
+        line-height: 1.8;
+  
+        &.custom_bullet {
+          list-style-type: none;
+          padding-left: 0;
+  
+          li {
+            position: relative;
+            padding-left: 25px;
+            line-height: 1.8;
+  
+            &::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 20px;
+              height: 20px;
+              background-image: url("assets/check_icon.png");
+              background-size: contain;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      }
+  
+      .rocket {
+        position: absolute;
+        top: 290px;
+        right: 100px;
+        width: 200px;
+      }
+    }
+  
+    .right-section {
+      padding: 40px;
+      width: 420px; // Adjusted width for alignment
+      background-color: white;
+      border-radius: 10px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative; // Ensure it becomes the reference for absolute positioning
+  
+      h2 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+      }
+  
+      p,
+      a {
+        color: black;
+        font-size: 0.9em;
+      }
+  
+      a {
+        color: #0073e6;
+        text-decoration: none;
+        text-decoration: underline; // Added underline for links
+      }
+  
+      .social-login {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+  
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+          border: 2px solid #ccc;
+          border-radius: 5px;
+          cursor: pointer;
+          background-color: white;
+          color: black;
+          transition: border-color 0.3s, background-color 0.3s;
+  
+          img {
+            margin-left: 8px;
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+  
+      .or {
+        text-align: center;
+        margin: 20px 0;
+        color: rgb(102, 101, 101);
+  
+        span {
+          background-color: white;
+          padding: 0 10px;
+        }
+      }
+  
+      .login-form {
+        margin-top: 10px;
+  
+        input {
+          width: 100%;
+          padding: 12px;
+          margin: 2px 0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+      }
+  
+      button[type="submit"] {
+        width: 100%;
+        padding: 6px;
+        margin-top: 7px;
+        background-color: #00b300;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #009900;
+        }
+      }
+  
+      p {
+        &.agreement {
+          text-align: center; // Center the text
+          font-size: 0.9em;
+          margin-top: 10px;
+          display: block; // Use block to ensure full width
+  
+          a {
+            margin: 0 5px; // Maintain space around links
+            color: #0073e6;
+            display: inline; // Ensure links are inline
+          }
+        }
+  
+        &.news-updates {
+          display: flex;
+          align-items: center;
+          justify-content: center; // Center align the text
+          font-size: 0.9em;
+          text-align: center;
+  
+          img {
+            vertical-align: middle;
+            margin-right: 5px;
+          }
+        }
+      }
+  
+      .close-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1.5em;
+        cursor: pointer;
+        margin: 8px 0; // Same margin as the inputs
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }

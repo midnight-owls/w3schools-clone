@@ -12,4 +12,4 @@ A school project aimed at recreating the [W3Schools homepage](https://www.w3scho
 - [Von Defuntorum](https://github.com/Hisuiiii) - Development Lead
 - [Jesse Mirabel](https://github.com/sejjy) - Design Lead
 - [Raven Dela Cruz](https://github.com/RNCDC) - Quality Lead
-<!-- - [Cris Ecalne](https://github.com/CrisDaniel02) - Analyst -->
+- [Cris Ecalne](https://github.com/CrisDaniel02) - Analyst
